@@ -1,0 +1,129 @@
+<style>
+@media (max-width:1000px){.title,.title-sub{font-weight:300;text-transform:uppercase;text-align:center}.hide{display:none}.wrap{width:95%;margin:0 auto}.firewall img{max-width:290px}.loadline{height:35px;position:relative;margin:20px auto 0;padding:2px;border:2px solid #17687C;width:90%}.title{font-size:22.5px;text-shadow:0 0 30px #219BBA}.title-sub{font-size:8.5px;text-shadow:0 0 20px #219BBA}}@media (min-width:1000px){.title,.title-sub{font-weight:300;text-transform:uppercase;text-align:center}.wrap{width:80%;margin:0 auto}.firewall img{max-width:400px}.loadline{height:35px;position:relative;margin:20px auto 0;padding:2px;border:2px solid #17687C;width:770px}.title{font-size:64.5px;text-shadow:0 0 30px #219BBA}.title-sub{font-size:24.2px;text-shadow:0 0 20px #219BBA}}*{margin:0}body{background:url(http://i.hizliresim.com/dbvd2p.png);color:#fff;font-weight:400;font-family:'Open Sans',sans-serif}.loadline>span{display:block;height:100%;background-color:#17687C;background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(23,104,124,.4)),color-stop(1,rgba(23,104,124,.4)));background-image:-moz-linear-gradient(center bottom,#2bc253 37%,#54f054 69%);position:relative;overflow:hidden}.animate>span>span,.loadline>span:after{content:"";position:absolute;top:0;left:0;bottom:0;right:0;background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(.25,rgba(255,255,255,.2)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,.2)),color-stop(.75,rgba(255,255,255,.2)),color-stop(.75,transparent),to(transparent));background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);z-index:1;-webkit-background-size:50px 50px;-moz-background-size:50px 50px;-webkit-animation:move 2s linear infinite;overflow:hidden}.animate>span:after{display:none}@-webkit-keyframes move{0%{background-position:0 0}100%{background-position:50px 50px}}.loader>span{background-color:rgba(23,104,124,.4)}.nostripes>span:after,.nostripes>span>span{-webkit-animation:none;background-image:none}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes zoomIn{from{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{from{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes flash{100%,50%,from{opacity:1}25%,75%{opacity:0}}@keyframes flash{100%,50%,from{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.firewall{text-align:center;margin:20px 0 -40px}#flash{-webkit-animation-duration:4s;-ms-animation-delay:5s}</style>
+<style type="text/css" media="all">
+p.shine
+{
+    font-weight:300;
+    text-transform:uppercase;
+    text-align:center
+}
+
+.shine
+{
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+    
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+    
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+     text-align:center
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" type="image/png" href="http://www.e-cloud.web.tr/images/favicon.png"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<title>KORUMA KALKANI</title>
+</head>
+<body>
+    <div class="wrap">
+		<br>
+		<br>
+		<br>
+		<br>
+        <div class="firewall animated flash infinite" id="flash"><img src="http://www.e-cloud.web.tr/images/ecloud.png" /></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="title animated zoomIn">KORUMA KALKANI DEVREDE</div>
+        <br>
+        <div class="title-sub animated zoomIn">BİLGİLERİN KAYDEDİLDİ</div>
+        <br>
+        <div class="title-sub animated zoomIn">UMARIM DERSİNE ÇALIŞIP ÖYLE GELİRSİN</div>
+        <div class="loadline loader animated zoomIn">
+            <span style="width: 100%"></span>
+        </div>
+    </div>
+<br>
+<div class="shine"><b>Copyright 2016 &copy; SECTURES</b></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+
+
+SEED="QugZ0Zih1l3CnAW28tFkV8SwRRS14Tnq";
+TARGET="0beef";
+function die_now(msg) {
+    $('.js-main').replaceWith('<pre>\n\n' + msg);
+    
+    throw msg;
+}
+
+function mint(seed, target) {
+    var idx = 0;
+    for(idx=0; idx<100000; idx++) {
+        var m = seed + '.' + idx;
+        var here = CryptoJS.SHA1(m).toString(), score = 0;
+        if(here.indexOf(target) != -1) {
+            return { "seed": seed, "pow": idx.toString(), "target": target };
+        }
+    }
+
+    location.reload();
+}
+
+$(function() {
+    window.setTimeout(function() {
+        var resp = mint(SEED, TARGET);
+        
+        $.ajax({type: "GET", url: "/___", da-ta: resp}).done(function(data) {
+            window.location.replace(data || window.location.href);
+        })
+        .fail(function() {
+            die_now("Koruma Aktif.");
+        });
+    }, 5000);
+
+    window.setTimeout(function() {
+        die_now("Koruma Aktif.");
+    }, 50000);
+});
+
+
+
+
+var CryptoJS=CryptoJS||function(e,m){var p={},j=p.lib={},l=function(){},f=j.Base={extend:function(a){l.prototype=this;var c=new l;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
+n=j.WordArray=f.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=m?c:4*a.length},toString:function(a){return(a||h).stringify(this)},concat:function(a){var c=this.words,q=a.words,d=this.sigBytes;a=a.sigBytes;this.clamp();if(d%4)for(var b=0;b<a;b++)c[d+b>>>2]|=(q[b>>>2]>>>24-8*(b%4)&255)<<24-8*((d+b)%4);else if(65535<q.length)for(b=0;b<a;b+=4)c[d+b>>>2]=q[b>>>2];else c.push.apply(c,q);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
+32-8*(c%4);a.length=e.ceil(c/4)},clone:function(){var a=f.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],b=0;b<a;b+=4)c.push(4294967296*e.random()|0);return new n.init(c,a)}}),b=p.enc={},h=b.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var b=[],d=0;d<a;d++){var f=c[d>>>2]>>>24-8*(d%4)&255;b.push((f>>>4).toString(16));b.push((f&15).toString(16))}return b.join("")},parse:function(a){for(var c=a.length,b=[],d=0;d<c;d+=2)b[d>>>3]|=parseInt(a.substr(d,
+2),16)<<24-4*(d%8);return new n.init(b,c/2)}},g=b.Latin1={stringify:function(a){var c=a.words;a=a.sigBytes;for(var b=[],d=0;d<a;d++)b.push(String.fromCharCode(c[d>>>2]>>>24-8*(d%4)&255));return b.join("")},parse:function(a){for(var c=a.length,b=[],d=0;d<c;d++)b[d>>>2]|=(a.charCodeAt(d)&255)<<24-8*(d%4);return new n.init(b,c)}},r=b.Utf8={stringify:function(a){try{return decodeURIComponent(escape(g.stringify(a)))}catch(c){throw Error("Malformed UTF-8 data");}},parse:function(a){return g.parse(unescape(encodeURIComponent(a)))}},
+k=j.BufferedBlockAlgorithm=f.extend({reset:function(){this._data=new n.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=r.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(a){var c=this._data,b=c.words,d=c.sigBytes,f=this.blockSize,h=d/(4*f),h=a?e.ceil(h):e.max((h|0)-this._minBufferSize,0);a=h*f;d=e.min(4*a,d);if(a){for(var g=0;g<a;g+=f)this._doProcessBlock(b,g);g=b.splice(0,a);c.sigBytes-=d}return new n.init(g,d)},clone:function(){var a=f.clone.call(this);
+a._data=this._data.clone();return a},_minBufferSize:0});j.Hasher=k.extend({cfg:f.extend(),init:function(a){this.cfg=this.cfg.extend(a);this.reset()},reset:function(){k.reset.call(this);this._doReset()},update:function(a){this._append(a);this._process();return this},finalize:function(a){a&&this._append(a);return this._doFinalize()},blockSize:16,_createHelper:function(a){return function(c,b){return(new a.init(b)).finalize(c)}},_createHmacHelper:function(a){return function(b,f){return(new s.HMAC.init(a,
+f)).finalize(b)}}});var s=p.algo={};return p}(Math);
+(function(){var e=CryptoJS,m=e.lib,p=m.WordArray,j=m.Hasher,l=[],m=e.algo.SHA1=j.extend({_doReset:function(){this._hash=new p.init([1732584193,4023233417,2562383102,271733878,3285377520])},_doProcessBlock:function(f,n){for(var b=this._hash.words,h=b[0],g=b[1],e=b[2],k=b[3],j=b[4],a=0;80>a;a++){if(16>a)l[a]=f[n+a]|0;else{var c=l[a-3]^l[a-8]^l[a-14]^l[a-16];l[a]=c<<1|c>>>31}c=(h<<5|h>>>27)+j+l[a];c=20>a?c+((g&e|~g&k)+1518500249):40>a?c+((g^e^k)+1859775393):60>a?c+((g&e|g&k|e&k)-1894007588):c+((g^e^
+k)-899497514);j=k;k=e;e=g<<30|g>>>2;g=h;h=c}b[0]=b[0]+h|0;b[1]=b[1]+g|0;b[2]=b[2]+e|0;b[3]=b[3]+k|0;b[4]=b[4]+j|0},_doFinalize:function(){var f=this._data,e=f.words,b=8*this._nDataBytes,h=8*f.sigBytes;e[h>>>5]|=128<<24-h%32;e[(h+64>>>9<<4)+14]=Math.floor(b/4294967296);e[(h+64>>>9<<4)+15]=b;f.sigBytes=4*e.length;this._process();return this._hash},clone:function(){var e=j.clone.call(this);e._hash=this._hash.clone();return e}});e.SHA1=j._createHelper(m);e.HmacSHA1=j._createHmacHelper(m)})();
+
+</script></body></html>
